@@ -7,6 +7,9 @@
   "scripts": {
    "start": "node server.js"
   },
+  "engines": {
+    "node": "10.19.0"
+    },
   "author": "ckvaizz",
   "license": "ISC",
   "dependencies": {
