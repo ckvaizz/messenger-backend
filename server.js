@@ -1,13 +1,13 @@
 import express from 'express'
 import mongoose from 'mongoose'
-import {user,messages} from './db-collections';
+import {user,messages} from './db-collections.js';
 import cors from 'cors'
 import Pusher from 'pusher'
 import bcrypt from 'bcrypt';
 
  //app config
  const app=express();
- const port=process.env.PORT || 9000
+ const port=process.env.PORT || 8080
  const connection_URL='mongodb+srv://admin:5bMq8DlFbTdjzWFv@cluster0.gfev0.mongodb.net/messenger?retryWrites=true&w=majority'
  
  //middleware
