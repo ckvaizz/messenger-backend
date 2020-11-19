@@ -9,7 +9,7 @@
     "start": "nodemon -r esm server.js"
   },
   "engines": {
-    "node": ">= 0.8.14"
+    "node": "15.2.1"
   },
   "author": "ckvaizz",
   "license": "ISC",
